@@ -1,0 +1,62 @@
+@import "./global";
+
+.section3 {
+  width: 1440px;
+  height: 600px;
+  margin: 0 auto;
+  display: flex;
+  background: #afaf9f;
+  background-image: url(/images/section2.png);
+
+  .section3__box {
+    position: relative;
+    width: 100%;
+    height: 600px;
+
+    .section3__container {
+      position: absolute;
+      top: 120px;
+      left: 140px;
+
+      img {
+        margin-bottom: 186px;
+      }
+
+      .circle3 {
+        position: absolute;
+        right: 0;
+        top: 135px;
+      }
+
+      .section3__info {
+        width: 960px;
+        height: 174px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 30px;
+
+        h2.title {
+          align-self: stretch;
+          color: var(--ff-4-c-0-d, #ff4c0d);
+          font-family: "Gilroy", sans-serif;
+          font-size: 45px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 49.5px;
+        }
+
+        p.subtitle {
+          width: 460px;
+          color: var(--151515, #151515);
+          font-family: 'Gilroy', sans-serif;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 21px;
+          letter-spacing: -0.14px;
+        }
+      }
+    }
+  }
+}

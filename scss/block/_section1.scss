@@ -1,0 +1,43 @@
+@import "./global";
+
+.section1 {
+  width: 1440px;
+  height: 600px;
+  margin: 0 auto;
+  padding-top: 120px;
+  background-image: url(/images/section1.png);
+
+  img {
+    margin-bottom: 188px;
+  }
+
+  .section1__box {
+    width: 960px;
+    height: 172px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+
+    h2.title {
+      align-self: stretch;
+      color: var(--f-1-f-1-f-1, #f1f1f1);
+      font-family: "Gilroy", sans-serif;
+      font-size: 45px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 49.5px;
+    }
+
+    p.subtitle {
+      width: 358px;
+      color: var(--f-1-f-1-f-1, #f1f1f1);
+      font-family: 'Gilroy',sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 21px;
+      letter-spacing: -0.14px;
+    }
+  }
+}
